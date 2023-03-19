@@ -1,4 +1,4 @@
-update-motd.d
+# update-motd.d
 This is the fluffy systems motd for It's servers
 
 ** Install **
