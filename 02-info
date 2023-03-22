@@ -16,7 +16,7 @@ cat << EOF
               Distro: `lsb_release -s -d` with `uname -r`
 
               CPU Load: `cat /proc/loadavg | awk '{print $1 ", " $2 ", " $3}'`
-              Free Memory: `free -g | head -n 2 | tail -n 1 | awk {'print $3'}`GB
+              Free Memory: `free -g | head -n 2 | tail -n 1 | awk {'print $4'}`GB
               Free Swap: `free -g | tail -n 1 | awk {'print $4'}`GB
               Free Disk: `df -h / | awk '{ a = $4 } END { print a }'`B
 %                                                                                %
